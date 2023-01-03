@@ -1,0 +1,64 @@
+.e3-container {
+  padding: 2rem;
+  background-color: #111418;
+  border: 1px solid #262a2f;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  color: #aeb7c2;
+}
+
+.e3-button {
+  background-color: #393f48;
+  border: none;
+  padding: 0.5rem 1.5rem;
+  border-radius: 100rem;
+  color: #ffffff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.e3-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.e3-header h2 {
+  margin: 0;
+  margin-bottom: 0.5rem;
+}
+
+.e3-header p {
+  margin: 0;
+}
+
+.e2-result {
+  text-align: center;
+}
+
+.e3-explainer {
+  font-size: 0.9rem;
+  padding: 1rem;
+  background-color: #393f48;
+  border-radius: 0.5rem;
+}
+
+.e3-contribution-graph {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2px;
+}
+
+.e3-graph-point {
+  height: 8px;
+  width: 8px;
+  background: #393f48;
+}
+
+.e3-graph-point-on {
+  background: #30933b;
+}
